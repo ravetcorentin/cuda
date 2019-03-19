@@ -1,0 +1,549 @@
+/* Début */
+/* Section Welcome regroupant le menu / le texte / l'image et le bouton */
+.welcome {
+  background: #87509c;
+  padding: 60px 0 145px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1034px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  margin-left: 54px;
+  list-style: none;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.link-isActive,
+.menu-link:hover {
+  background: #643a79;
+  padding: 4px 10px;
+  border-radius: 3px;
+}
+
+.header-title {
+  color: #fff;
+  margin-top: 148px;
+  margin-bottom: 54px;
+  font-size: 42px;
+  line-height: 48px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  background: #ed7d44;
+  width: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 25px 60px;
+  position: relative;
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #c86a40;
+  border-radius: 0 0 5px 5px;
+}
+
+.button:hover {
+  background: #c86a40;
+}
+
+/* Section services regroupant titre / text / les images et le texte correspondant a celle-ci */
+.services {
+  background: #17c2a4;
+  padding: 60px 0 145px;
+}
+
+.services-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 42px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.services-description {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin: 50px 0 79px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.services-item {
+  width: 260px;
+  text-align: center;
+  color: #fff;
+}
+
+.service-img {
+  height: 100px;
+}
+
+.services-itemTitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 30px 27px;
+}
+
+.services-itemsText {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 119px;
+}
+
+/* Section Team regroupant titre / texte / les images ainsi que la description de celle-ci + les réseaux sociaux */
+.team {
+  background: #e7f1f8;
+  padding: 60px 0 20px;
+}
+
+.team-title {
+  color: #3c4761;
+  text-transform: uppercase;
+  font-size: 42px;
+  text-align: center;
+  margin: 16px;
+}
+
+.team-description {
+  font-size: 18px;
+  text-align: center;
+  margin: 50px 0 85px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 30px auto;
+}
+
+.team-item {
+  width: 200px;
+  text-align: center;
+}
+
+.team-itemDescription {
+  text-align: center;
+  color: #30bae7;
+  margin-bottom: 30px;
+  margin-top: 16px;
+}
+
+.team-img {
+  height: 200px;
+}
+
+.team-itemTitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  width: 200px;
+  color: #27283d;
+}
+
+.team-itemText {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #3c4761;
+}
+
+.team-itemSocial {
+  display: flex;
+  justify-content: center;
+}
+
+.team-itemlogoSocial {
+  width: 32px;
+  margin-right: 12px;
+  align-content: center;
+}
+
+/* Section Skills regroupant titre / texte et les images */
+.skills {
+  background: #ffffff;
+  padding: 60px 0 20px;
+}
+
+.skills-title {
+  color: #3c4761;
+  text-transform: uppercase;
+  font-size: 42px;
+  text-align: center;
+  margin: 16px;
+}
+
+.skills-description {
+  font-size: 18px;
+  text-align: center;
+  margin: 50px 0 85px;
+  color: #3c4761;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 30px auto;
+}
+
+.skills-items {
+  margin-bottom: 125px;
+}
+
+/* Section portfolio regroupant titre / texte / les images et la description de celle-ci */
+.portfolio {
+  background: #ffdd99;
+  padding: 60px 0 20px;
+}
+
+.portfolio-title {
+  color: #393939;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  margin: 16px;
+  font-weight: bold;
+}
+
+.portfolio-description {
+  font-size: 18px;
+  text-align: center;
+  margin: 50px 0 43px;
+  color: #393939;
+}
+
+.portfolio-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-items {
+  margin-left: 10px;
+}
+
+.portfolio-itemsMenu {
+  text-decoration: none;
+  color: #393939;
+  text-transform: uppercase;
+  font-size: 16px;
+  background: #ebc985;
+  padding: 4px 25px;
+  border-radius: 3px;
+}
+
+.portfolio-itemsMenu:hover {
+  background: #ffffff;
+  padding: 4px 25px;
+  border-radius: 3px;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 65px 200px 0 200px;
+  justify-content: center;
+}
+
+.portfolio-itemsPc {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.portfolio-itemsimg {
+  margin-bottom: 32px;
+}
+
+.portfolio-itemsText {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 68px;
+  color: #393939;
+  font-size: 18px;
+}
+
+.button-portfolio {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  background: #17c2a4;
+  width: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 25px 60px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.button-portfolio::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #14a58c;
+  border-radius: 0 0 5px 5px;
+}
+
+.button-portfolio:hover {
+  background: #14a58c;
+}
+
+/* Section Testimonials regroupant photo + leur texte correspondant */
+.testimonials {
+  background: #d74680;
+  padding: 60px 0 20px;
+}
+
+.testimonials-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  margin: 16px;
+  font-weight: bold;
+}
+
+.testimonials-description {
+  font-size: 18px;
+  text-align: center;
+  margin: 50px 0 43px;
+  color: #fff;
+}
+
+
+.testimonials-containerUper {
+  display: flex;
+  margin: 65px 170px 0 0;
+  justify-content: center;
+}
+
+.testimonials-imgUper {
+  height: 100px;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+
+.testimonials-itemUper {
+  margin-left: 10px;
+}
+
+
+.testimonials-itemTextUper {
+  margin-top: 32px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20pt;
+  font-style: italic;
+  margin-right: 15px;
+}
+
+.testimonials-itemTitleUper {
+  text-align: flex-start;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.testimonials-itemsDescriptionUper {
+  text-align: flex-start;
+  color: #ffdd99;
+  font-size: 18px;
+}
+
+.testimonials-containerLower {
+  display: flex;
+  margin: 140px 170px 130px 0;
+  justify-content: center;
+}
+
+.testimonials-imgLower {
+  height: 100px;
+  margin-right: 55px;
+  margin-left: 100px;
+}
+
+.testimonials-itemLower {
+  margin-left: 0;
+}
+
+.testimonials-itemTextLower {
+  margin-top: 32px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20pt;
+  font-style: italic;
+}
+
+.testimonials-itemTitleLower {
+  text-align: flex-start;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.testimonials-itemsDescriptionLower {
+  text-align: flex-start;
+  color: #ffdd99;
+  font-size: 18px;
+}
+
+/* Section regroupant titre / text et formulaire */
+.getintouch {
+  background: #3c5499;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.getintouch-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  margin: 16px;
+  font-weight: bold;
+}
+
+.getintouch-description {
+  font-size: 18px;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.getintouch-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.getintouch-itemCaseText {
+  background: #273a71;
+  text-align: start;
+  color: #fff;
+  width: 420px;
+  height: 50px;
+  margin: 50px 30px;
+  padding: 20px;
+  border-radius: 5px;
+  border: #fff;
+}
+
+.getintouch-itemCaseText::placeholder {
+  color: #fff;
+}
+
+.getintouch-caseText {
+  background: #273a71;
+  color: #fff;
+  width: 900px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 290px 60px 290px;
+  border: #fff;
+}
+
+.getintouch-caseText::placeholder {
+  color: #fff;
+}
+
+
+.button-getintouch {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  background: #30bae7;
+  width: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 25px 60px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.button-getintouch::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #299ec5;
+  border-radius: 0 0 5px 5px;
+}
+
+.button-getintouch:hover {
+  background: #299ec5;
+}
+
+/* Section regroupant les liens des réseaux sociaux de l'entreprise */
+.getintouch-footer {
+  background: #344b8e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.getintouch-footerItemLink {
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 30px 0;
+  color: #fff;
+  width: 140px;
+}
+
+.getintouch-footerItemLink:hover {
+  background: #30bae7;
+}
+
+/* Fin */
